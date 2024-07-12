@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-color: #f7f7f7;
+    padding: 2em;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #444;
+}
+
+.features {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.features h2 {
+    margin-top: 0;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.features li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #333;
+}
+
+.archive {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+.archive h2 {
+    margin-top: 0;
+}
+
+.archive ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.archive li {
+    margin-bottom: 10px;
+}
+
+.archive a {
+    text-decoration: none;
+    color: #333;
+}
+
+.archive a:hover {
+    color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
